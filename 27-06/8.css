@@ -1,0 +1,57 @@
+body {
+    background-color: lightgrey;
+    margin: 0;
+}
+
+.nav {
+    background-color: green;    
+}
+
+.ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main {
+    background-color: yellow;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.aside {
+    background-color: orange;
+}
+
+.footer {
+    background-color: darkgrey;
+}
+
+@media all and (min-width:480px) {
+
+
+
+.aside {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+}
+
+.flex {
+    display: flex;
+}
+.nav {
+    height: 30%;
+    width: 30%;
+
+}
+
+
+.main2 {
+    display: flex;
+}
+
+
+
+}

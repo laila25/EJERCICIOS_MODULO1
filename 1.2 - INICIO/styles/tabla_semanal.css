@@ -1,0 +1,19 @@
+body {
+    font-size: 18px;
+    font-family: tahoma;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height: 1.5;
+}
+
+table {
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+    
+}
+
+td, th{
+    border: solid 1px black;
+}

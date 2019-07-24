@@ -1,0 +1,13 @@
+body {
+    margin: auto;
+    max-width: 1500px;
+}
+
+.item {
+    margin: 5px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

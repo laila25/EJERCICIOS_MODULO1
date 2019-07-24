@@ -1,0 +1,19 @@
+body {
+    max-width: 1000px;
+    margin: 0;
+}
+
+.foot {
+    background-color: yellow;
+    width: 1000px;
+    height: 100px;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.foot p {
+    font-size: 20px;
+    font-weight: bold;
+}

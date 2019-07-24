@@ -1,0 +1,37 @@
+body {
+    margin: auto;
+}
+
+
+
+.header {
+    background: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.menu {
+    background: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.content {
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.footer {
+    background: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}

@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.menu {
+    margin: 0;
+}
+
+.item {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header {
+    background-color: cyan;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main {
+    padding: 15px;
+}
+
+.m-header {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

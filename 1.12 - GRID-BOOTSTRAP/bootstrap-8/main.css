@@ -1,0 +1,14 @@
+body {
+    margin: auto;
+}
+
+.header {
+    background-color: aqua;
+    padding: 15px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    padding: 0;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+    <section class="form">
+        <h1>Create an account</h1>
+        <h2>It´s free and always will be</h2>
+        
+        <form action="" method="GET">
+            
+            <label for="firstname"></label>
+            <input class="input1" type="text" name="firstname" id="firstname" placeholder="First Name">
+            
+            <label for="surname"></label>
+            <input class="input1" type="text" name="surname" id="surname" placeholder="Surname"><br>
+            
+            <label for="email"></label>
+            <input class="input2" type="text" name="email" id="email" placeholder="Email or mobile number">
+            
+            <label for="re-email"></label>
+            <input class="input2" type="text" name="re-email" id="re-email" placeholder="Re-enter email or mobile number">
+            
+            <label for="password"></label>
+            <input class="input2" type="password" name="password" id="password" placeholder="New password">
+            
+            <p>Birthday</p>
+            <label for="date">
+                <select class="input3" name="date" id="date">
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+            <label for="month"></label>
+            <select class="input3" name="month" id="month">
+                <option value="">Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+            </select>
+            <label for="year"></label>
+            <select class="input3" name="year" id="year">
+                <option value="">Year</option>
+                <option value="">1982</option>
+                <option value="">1983</option>
+                <option value="">1984</option>
+                <option value="">1985</option>
+                <option value="">1986</option>
+                <option value="">1987</option>
+            </select>
+            <input class="input3" type="date">
+            <br><br>
+            
+            <label for="sex">
+                <input type="radio" name="sex" id="sex" value="female">Female
+            </label>
+            
+            <label for="sex2">
+                <input type="radio" name="sex" id="sex2" value="male">Male
+            </label>
+            <br><br>
+            
+            <label for="height">Altura en cm </label>
+            <input class="input3" type="number" id="height" name="height" value="150" min="50" max="250">
+            <br><br>
+            
+            <label for="comment"></label>
+            <textarea class="input3" name="comment" id="comment" cols="60" rows="5" placeholder="Escribe un comentario"></textarea>
+            <br>
+            
+            <label for="terms">
+                <input type="checkbox" id="terms" name="terms">Terms Accept
+            </label>
+            <br><br>
+            
+            <label for="dni">DNI</label>
+            <input class="input3" type="dni" id="dni" name="dni" pattern="[0-9]{8}[a-zA-Z]{1}">
+            <br>
+            
+            <input type="hidden" id="browser" name="browser" value="HTML">
+            
+            
+            <br>
+            
+            <input type="submit" value="Create an account">
+            <input type="reset" value="Restaurar valores">
+            
+            
+            
+        </form>
+    </section>
+</body>
+</html>
+

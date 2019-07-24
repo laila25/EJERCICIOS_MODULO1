@@ -1,0 +1,29 @@
+body {
+    max-width: 800px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    position: relative;
+}
+
+.name {
+    color: grey;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.ext {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+
+hr {
+    margin-top: -10px;
+}

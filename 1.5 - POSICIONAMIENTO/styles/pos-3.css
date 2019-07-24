@@ -1,0 +1,22 @@
+body {
+    max-width: 1200px;
+    margin: 0;
+}
+
+.header {
+    width: 1200px;
+    background-color: purple;
+    height: 100px;
+    position: fixed;
+    
+}
+
+.main {
+    position: relative;
+    top: 120px;
+    left: 0;
+}
+
+p {
+    text-align: justify;
+}
